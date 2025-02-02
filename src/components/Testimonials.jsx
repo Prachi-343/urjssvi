@@ -16,7 +16,7 @@ const Testimonials = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
               <h1>what client<span> says</span></h1>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected hummer.</p>
+              <p>Discover the experiences of our satisfied clients who have found clarity and success through our astrology services. Their testimonials reflect trust, accuracy, and life-changing guidance.</p>
             </div>
           </div>
           <div className="col-lg-10 col-md-12 col-sm-12 col-12 offset-lg-1 offset-md-0 offset-sm-0 offset-0">

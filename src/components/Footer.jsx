@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="ast_footer_info">
               <img src={Logo} alt="Logo" />
               <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+              Your journey to self-discovery begins here! Explore astrology, get expert predictions, <br/> and find the guidance you need for a better life. Stay connected and let the stars guide your path.
               </p>
               <ul>
                 <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="widget text-widget">
               <h4 className="widget-title">our newsletter</h4>
               <div className="ast_newsletter">
-                <p>Making it look like readable English. The point of using Lorem Ipsum is that it has a more-or less normal distribution of letters.</p>
+                <p>Stay updated with the latest astrological insights and predictions. Subscribe to our newsletter and never miss out on the cosmic guidance that can help you navigate your life.</p>
                 <div className="ast_newsletter_box">
                   <input type="text" placeholder="Email" />
                   <button type="submit"><i className="fa fa-paper-plane" aria-hidden="true"></i></button>
@@ -40,7 +40,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-md-2 col-sm-6 col-12">
+          {/* <div className="col-lg-2 col-md-2 col-sm-6 col-12">
             <div className="widget text-widget">
               <h4 className="widget-title">our services</h4>
               <div className="ast_servicelink">
@@ -53,7 +53,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-2 col-md-2 col-sm-6 col-12">
             <div className="widget text-widget">
               <h4 className="widget-title">quick links</h4>
@@ -82,7 +82,6 @@ const Footer = () => {
                   </li>
                   <li><i className="fa fa-phone" aria-hidden="true"></i>
                     <p>+91 8181814269</p>
-                    <p>+91 8181814269</p>
                   </li>
                 </ul>
               </div>
@@ -90,7 +89,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_copyright_wrapper">
-              <p>&copy; Copyright 2022, All Rights Reserved, <a href="#">Urjassvi</a></p>
+              <p>&copy; Copyright 2025, All Rights Reserved, <a href="#">Urjassvi</a></p>
             </div>
           </div>
         </div>

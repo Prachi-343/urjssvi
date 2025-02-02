@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
               <h1>why <span>choose us</span></h1>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected hummer.</p>
+              <p>Choose us for accurate astrology insights, personalized guidance, and expert predictions. Our trusted astrologers help you navigate life with clarity and confidence.</p>
             </div>
           </div>
           <div className="ast_whywe_info row">

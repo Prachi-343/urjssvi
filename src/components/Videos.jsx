@@ -19,7 +19,8 @@ const Videos = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading ast_bottompadder20">
               <h1>About <span>Vastushasra</span></h1>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected hummer.</p>
+              <p>Discover the ancient science of architecture and design that harmonizes the energies of your living spaces.</p>
+             
             </div>
           </div>
         </div>

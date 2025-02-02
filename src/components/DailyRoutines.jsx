@@ -37,7 +37,7 @@ const DailyRoutines = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
               <h1>Daily Routines</h1>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected hummer.</p>
+              <p>Align your daily routines with astrological wisdom for a balanced and fulfilling life. Follow personalized guidance to enhance health, success, and well-being.</p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -51,7 +51,7 @@ const DailyRoutines = () => {
                         <img src={vas1} alt="Sun Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>Sun Sign</h5>
-                          <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+                          <p>Represents your core personality, identity, and life purpose.</p>
                         </div>
                       </Link>
                     </li>
@@ -60,7 +60,7 @@ const DailyRoutines = () => {
                         <img src={vas2} alt="Moon Sign" />
                         <div className="ast_vedic_astro_info">
                           <h5>moon Sign</h5>
-                          <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+                          <p>Reflects your emotions, inner self, and subconscious mind.</p>
                         </div>
                       </Link>
                     </li>
@@ -69,7 +69,7 @@ const DailyRoutines = () => {
                         <img src={vas3} alt="Planets" />
                         <div className="ast_vedic_astro_info">
                           <h5>Planets</h5>
-                          <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+                          <p>Each planet influences different aspects of life and destiny.</p>
                         </div>
                       </Link>
                     </li>
@@ -78,7 +78,7 @@ const DailyRoutines = () => {
                         <img src={vas4} alt="Ascendant" />
                         <div className="ast_vedic_astro_info">
                           <h5>Ascendant</h5>
-                          <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+                          <p>Defines your outer personality, first impressions, and approach to life. </p>
                         </div>
                       </Link>
                     </li>
@@ -87,7 +87,7 @@ const DailyRoutines = () => {
                         <img src={vas5} alt="Twelve Houses" />
                         <div className="ast_vedic_astro_info">
                           <h5>Twelve Houses</h5>
-                          <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+                          <p>Each house governs specific life areas like career, relationships, and health.</p>
                         </div>
                       </Link>
                     </li>
@@ -96,7 +96,7 @@ const DailyRoutines = () => {
                         <img src={vas6} alt="Nakshatras" />
                         <div className="ast_vedic_astro_info">
                           <h5>Nakshatras</h5>
-                          <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+                          <p>Lunar constellations that shape personality traits and life events.</p>
                         </div>
                       </Link>
                     </li>
@@ -126,7 +126,7 @@ const DailyRoutines = () => {
                         <img src={vad1} alt="career" />
                         <div className="ast_vedic_astro_info">
                           <h5>career</h5>
-                          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                          <p>Get astrological insights to choose the right career path and achieve success.</p>
                         </div>
                       </Link>
                     </li>
@@ -135,7 +135,7 @@ const DailyRoutines = () => {
                         <img src={vad2} alt="relationship" />
                         <div className="ast_vedic_astro_info">
                           <h5>relationship</h5>
-                          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                          <p>Understand compatibility and strengthen your relationships with astrology.</p>
                         </div>
                       </Link>
                     </li>
@@ -144,7 +144,7 @@ const DailyRoutines = () => {
                         <img src={vad3} alt="finance" />
                         <div className="ast_vedic_astro_info">
                           <h5>finance</h5>
-                          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                          <p>Plan your finances wisely with astrological guidance for stability and growth.</p>
                         </div>
                       </Link>
                     </li>
@@ -153,7 +153,7 @@ const DailyRoutines = () => {
                         <img src={vad4} alt="business" />
                         <div className="ast_vedic_astro_info">
                           <h5>business</h5>
-                          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                          <p>Unlock business success with astrology-based strategies and timing.</p>
                         </div>
                       </Link>
                     </li>
@@ -162,7 +162,7 @@ const DailyRoutines = () => {
                         <img src={vad5} alt="education" />
                         <div className="ast_vedic_astro_info">
                           <h5>education</h5>
-                          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                          <p>Enhance learning and academic success with personalized astrological advice.</p>
                         </div>
                       </Link>
                     </li>
@@ -171,7 +171,7 @@ const DailyRoutines = () => {
                         <img src={vad6} alt="health" />
                         <div className="ast_vedic_astro_info">
                           <h5>health</h5>
-                          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                          <p>Maintain well-being with astrology-backed health predictions and remedies.</p>
                         </div>
                       </Link>
                     </li>
@@ -180,7 +180,7 @@ const DailyRoutines = () => {
                         <img src={vad7} alt="Ask A Question" />
                         <div className="ast_vedic_astro_info">
                           <h5>Ask A Question</h5>
-                          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                          <p>Seek answers to your life’s uncertainties with expert astrological guidance.</p>
                         </div>
                       </Link>
                     </li>
@@ -189,7 +189,7 @@ const DailyRoutines = () => {
                         <img src={vad8} alt="Love Remedies" />
                         <div className="ast_vedic_astro_info">
                           <h5>Love Remedies</h5>
-                          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                          <p>Find astrological solutions to attract love and maintain harmony in relationships.</p>
                         </div>
                       </Link>
                     </li>

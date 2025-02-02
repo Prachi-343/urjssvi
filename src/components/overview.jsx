@@ -20,7 +20,7 @@ const Overview = () => {
                 Astrology <span>Your Guide To Life's Journey</span>
               </h1>
               <p>
-                We believe astrology is pure science, and we aim to create such a social impact of the organization on you that science and astrology through its resources of the astrology chart, kundali, etc,. As we dive into our 50th year, we strive to build a community where we are a part of your daily routine right from our astrology by date of birth, name, time, palm reading, and face reading, to all other online astrology, numerology, palmistry services.
+              We believe astrology is pure science, and we aim to create such a social impact of the organization on you that science and astrology through its resources of the astrology chart, kundali, etc,. As we dive into our 50th year, we strive to build a community where we are a part of your daily routine right from our astrology by date of birth, name, time, palm reading, and face reading, to all other online astrology, numerology, palmistry services.
               </p>
             </div>
           </div>

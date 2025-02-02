@@ -18,7 +18,7 @@ const About = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
               <h1>about <span>astrology</span></h1>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected hummer.</p>
+              <p>Astrology is the ancient science of interpreting celestial movements to reveal insights about personality, relationships, and life events.</p>
             </div>
           </div>
           <div className="col-lg-5 col-md-12 col-sm-12 col-12">
@@ -29,11 +29,11 @@ const About = () => {
           <div className="col-lg-7 col-md-12 col-sm-12 col-12">
             <div className="ast_about_info">
               <h4>know about astrology</h4>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-              <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+              <p>Astrology is an ancient practice that studies the influence of celestial bodies on human life. It is based on the belief that the positions and movements of the planets, stars, and moon impact personality traits, relationships, and future events. </p>
+              <p>By analyzing birth charts, zodiac signs, and planetary alignments, astrology provides insights into various aspects of life, including career, love, and personal growth. Whether used for self-discovery or guidance, astrology serves as a tool to understand the deeper connections between the cosmos and human experiences.</p>
               <Link to="/about" className="ast_btn">know more</Link>
             </div>
-          </div>
+          </div>  
         </div>
       </div>
     </div>

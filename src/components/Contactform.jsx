@@ -16,7 +16,7 @@ const ContactUs = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
               <h1>find & message <span>here</span></h1>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected hummer.</p>
+              <p>Have questions or need guidance? Reach out to us anytime—our expert astrologers are here to assist you with accurate insights and personalized advice.</p>
             </div>
           </div>
         </div>

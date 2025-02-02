@@ -24,14 +24,14 @@ const Service = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
               <h1>our <span>services</span></h1>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected hummer.</p>
+              <p>Our astrology services include personalized horoscope readings, career and love guidance, and accurate predictions. Get expert insights to shape your future with confidence.</p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={birthJournalIcon} alt="Service" />
               <h4>Birth Journal</h4>
-              <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+              <p>Discover the secrets of your life with a personalized birth journal based on your unique astrological chart.</p>
               <div className="clearfix"></div>
               <Link to="/service_single" className="ast_btn">read more</Link>
             </div>
@@ -39,8 +39,8 @@ const Service = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={vastuShastraIcon} alt="Service" />
-              <h4>vastu shastra</h4>
-              <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+              <h4>Vastu Shastra</h4>
+              <p>Enhance harmony and prosperity in your life with expert Vastu Shastra guidance.</p>
               <div className="clearfix"></div>
               <Link to="/service_single" className="ast_btn">read more</Link>
             </div>
@@ -48,8 +48,8 @@ const Service = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={faceReadingIcon} alt="Service" />
-              <h4>face reading</h4>
-              <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+              <h4>Face Reading</h4>
+              <p>Unveil hidden truths about your personality and destiny with expert face reading analysis.</p>
               <div className="clearfix"></div>
               <Link to="/service_single" className="ast_btn">read more</Link>
             </div>
@@ -57,8 +57,8 @@ const Service = () => {
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
             <div className="ast_service_box">
               <img src={lalKitabIcon} alt="Service" />
-              <h4>lal kitab</h4>
-              <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+              <h4>Lal Kitab</h4>
+              <p>Unlock simple yet powerful remedies for a better life with Lal Kitab astrology.</p>
               <div className="clearfix"></div>
               <Link to="/service_single" className="ast_btn">read more</Link>
             </div>
@@ -67,7 +67,7 @@ const Service = () => {
             <div className="ast_service_box">
               <img src={gemstonesIcon} alt="Service" />
               <h4>Gemstones</h4>
-              <p>Explore our diverse collection of astrological guidance gemstones</p>
+              <p>Harness the power of gemstones to attract positivity, success, and well-being in your life.</p>
               <div className="clearfix"></div>
               <Link to="/service_single" className="ast_btn">read more</Link>
             </div>
@@ -76,7 +76,7 @@ const Service = () => {
             <div className="ast_service_box">
               <img src={kundliDoshIcon} alt="Service" />
               <h4>kundli dosh</h4>
-              <p>On the other hand, we denounce with righteous indignation and dislike men.</p>
+              <p>Identify and resolve Kundli Dosh with expert remedies for a harmonious and prosperous life.</p>
               <div className="clearfix"></div>
               <Link to="/service_single" className="ast_btn">read more</Link>
             </div>

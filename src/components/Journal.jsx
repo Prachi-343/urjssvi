@@ -16,8 +16,8 @@ const Journal = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_journal_info">
               <h3>make your appointment to discuss any problem.</h3>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
-              <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+              <p>Life often presents challenges that leave us searching for answers, but astrology offers a path to clarity and solutions. Whether you’re facing career uncertainties, relationship struggles, financial concerns, health issues, or personal dilemmas, our expert astrologers are here to guide you. Through detailed horoscope analysis, planetary insights, and proven astrological remedies, we help you navigate life’s complexities with confidence.</p>
+              <p>By booking an appointment, you gain access to personalized guidance tailored to your unique birth chart and life circumstances. Our astrologers provide deep insights into your past, present, and future, empowering you to make informed decisions and overcome obstacles. Don’t let uncertainty hold you back—schedule a consultation today and take the first step toward a brighter, more balanced future!</p>
             </div>
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">

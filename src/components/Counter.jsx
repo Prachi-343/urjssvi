@@ -23,7 +23,7 @@ const TimerSection = () => {
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_heading">
               <h1>now <span>we have</span></h1>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected hummer.</p>
+              <p>Now We Have a team of experienced astrologers dedicated to providing accurate insights and effective remedies. With our expertise, we help you navigate life’s challenges and unlock new opportunities.</p>
             </div>
           </div>
           <div className="ast_counter_wrapper row">
