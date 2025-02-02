@@ -7,7 +7,7 @@ import '../css/owl.carousel.css';
 import '../css/owl.theme.default.css';
 import '../css/magnific-popup.css';
 import '../css/style.css';
-
+import Logo from '../assets/images/imgs/header-logo.png';
 const Footer = () => {
   return (
     <div className="ast_footer_wrapper ast_toppadder70 ast_bottompadder20">
@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-12">
             <div className="ast_footer_info">
-              <img src="src\assets\images\imgs\header-logo.png" alt="Logo" />
+              <img src={Logo} alt="Logo" />
               <p>
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
               </p>

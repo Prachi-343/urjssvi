@@ -11,6 +11,7 @@ import '../css/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faSignIn, faUserPlus, faSearch, faShoppingCart, faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/images/imgs/header-logo.png';
 
 // Define a custom CSS class for orange icons
 const iconStyles = {
@@ -57,7 +58,7 @@ const Header = () => {
           <div className="row">
             <div className="col-lg-3 col-md-3 col-sm-3 col-10">
               <div className="ast_logo">
-                <Link to="/"><img src="src\assets\images\imgs\header-logo.png" alt="Logo" title="Logo" /></Link>
+                <Link to="/"><img src={Logo} alt="Logo" title="Logo" /></Link>
               </div>
             </div>
             <div className="col-lg-9 col-md-9 col-sm-9 col-2">
