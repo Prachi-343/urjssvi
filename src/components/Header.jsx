@@ -65,12 +65,12 @@ const Header = () => {
               <div className="ast_main_menu_wrapper">
                 <div className="ast_menu">
                   <ul>
-                    <li className="as_submenu_li"><Link className="dropdown-toggle" to="/">home</Link></li>
+                    <li className="as_submenu_li"><Link to="/">Home</Link></li>
                     <li><Link to="/about">about</Link></li>
                     <li><Link to="/services">services</Link></li>
-                    <li className="as_submenu_li"><Link className="dropdown-toggle" to="/blog">blog</Link></li>
+                    <li className="as_submenu_li"><Link to="/blog">blog</Link></li>
                     <li><Link to="/appointment">appointment</Link></li>
-                    <li className="as_submenu_li"><Link className="dropdown-toggle" to="/shop">shop</Link></li>
+                    <li className="as_submenu_li"><Link to="/shop">shop</Link></li>
                     <li><Link to="/contact">contact</Link></li>
                   </ul>
                 </div>
