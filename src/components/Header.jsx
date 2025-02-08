@@ -35,15 +35,6 @@ const Header = () => {
                 <ul>
                   <li><a className="popup-with-zoom-anim" href=""><FontAwesomeIcon icon={faSignIn} style={iconStyles} /> Log In</a></li>
                   <li><a className="popup-with-zoom-anim" href=""><FontAwesomeIcon icon={faUserPlus} style={iconStyles} /> Sign Up</a></li>
-                  <li className="ast_search">
-                    <a href="#"><FontAwesomeIcon icon={faSearch} style={iconStyles} /></a>
-                    <div className="ast_search_field">
-                      <form>
-                        <input type="text" placeholder="Search Here" />
-                        <button type="button"><FontAwesomeIcon icon={faSearch} style={iconStyles} /></button>
-                      </form>
-                    </div>
-                  </li>
                   <li className="ast_cart">
                     <a href="#"><FontAwesomeIcon icon={faShoppingCart} style={iconStyles} /></a>
                   </li>

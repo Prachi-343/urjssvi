@@ -12,7 +12,6 @@ import Overview from '../components/overview.jsx';
 import Testimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
 
-
 const Home = () => {
   return (
     <div>
