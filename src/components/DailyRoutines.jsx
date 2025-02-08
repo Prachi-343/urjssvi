@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../css/animate.css';
 import '../css/bootstrap.css';
 import '../css/font-awesome.css';
@@ -29,7 +29,31 @@ import vdkBb from '../assets/images/imgs/vdk_bb.jpg';
 import vdkVst from '../assets/images/imgs/vdk_vst.jpg';
 import vdkKndl from '../assets/images/imgs/vdk_kndl.png';
 
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from '../firebase';
+
 const DailyRoutines = () => {
+  const [availabilityStatus, setAvailabilityStatus] = useState('Unavailable');
+
+  useEffect(() => {
+    const fetchAvailabilityStatus = async () => {
+      try {
+        const docRef = doc(db, 'availability', 'current');
+        const docSnap = await getDoc(docRef);
+        if (docSnap.exists()) {
+          console.log('Document data:', docSnap.data()); // Debugging information
+          setAvailabilityStatus(docSnap.data().status); // Ensure the field name is 'status'
+        } else {
+          console.log('No such document!');
+        }
+      } catch (error) {
+        console.error('Error fetching document: ', error);
+      }
+    };
+
+    fetchAvailabilityStatus();
+  }, []);
+
   return (
     <div className="ast_wedo_wrapper ast_toppadder70 ast_bottompadder50">
       <div className="container">
@@ -38,6 +62,7 @@ const DailyRoutines = () => {
             <div className="ast_heading">
               <h1>Daily Routines</h1>
               <p>Align your daily routines with astrological wisdom for a balanced and fulfilling life. Follow personalized guidance to enhance health, success, and well-being.</p>
+              <h3>Today {availabilityStatus} At Office</h3> {/* Render the availability status here */}
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
