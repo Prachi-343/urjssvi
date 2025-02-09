@@ -7,8 +7,12 @@ import '../css/owl.carousel.css';
 import '../css/owl.theme.default.css';
 import '../css/magnific-popup.css';
 import '../css/style.css';
+import { useLocation, Link } from 'react-router-dom';
 
 const Breadcrumb = () => {
+  const location = useLocation();
+  const pathnames = location.pathname.split('/').filter(x => x);
+
   return (
     <div className="ast_pagetitle">
       <div className="ast_img_overlay"></div>
@@ -16,14 +20,21 @@ const Breadcrumb = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="page_title">
-              <h2>About Us</h2>
+              <h2>{pathnames[pathnames.length - 1]}</h2>
             </div>
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <ul className="breadcrumb">
-              <li><a href="index.html">home</a></li>
-              <li>//</li>
-              <li><a href="about.html">About us</a></li>
+              <li><Link to="/">home</Link></li>
+              {pathnames.map((name, index) => {
+                const routeTo = `/${pathnames.slice(0, index + 1).join('/')}`;
+                return (
+                  <li key={index}>
+                    <span>//</span>
+                    <Link to={routeTo}>{name}</Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

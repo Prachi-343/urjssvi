@@ -8,6 +8,7 @@ import '../css/owl.theme.default.css';
 import '../css/magnific-popup.css';
 import '../css/style.css';
 import Logo from '../assets/images/imgs/header-logo.png';
+import { faPhone, faEnvelope, faSignIn, faUserPlus, faSearch, faShoppingCart, faBars } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
   return (
     <div className="ast_footer_wrapper ast_toppadder70 ast_bottompadder20">
@@ -20,7 +21,7 @@ const Footer = () => {
               Your journey to self-discovery begins here! Explore astrology, get expert predictions, <br/> and find the guidance you need for a better life. Stay connected and let the stars guide your path.
               </p>
               <ul>
-                <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#" ><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i className="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i className="fa fa-skype" aria-hidden="true"></i></a></li>
@@ -33,37 +34,18 @@ const Footer = () => {
               <h4 className="widget-title">our newsletter</h4>
               <div className="ast_newsletter">
                 <p>Stay updated with the latest astrological insights and predictions. Subscribe to our newsletter and never miss out on the cosmic guidance that can help you navigate your life.</p>
-                <div className="ast_newsletter_box">
-                  <input type="text" placeholder="Email" />
-                  <button type="submit"><i className="fa fa-paper-plane" aria-hidden="true"></i></button>
-                </div>
               </div>
             </div>
           </div>
-          {/* <div className="col-lg-2 col-md-2 col-sm-6 col-12">
-            <div className="widget text-widget">
-              <h4 className="widget-title">our services</h4>
-              <div className="ast_servicelink">
-                <ul>
-                  <li><a href="services.html">horoscopes</a></li>
-                  <li><a href="services.html">gemstones</a></li>
-                  <li><a href="services.html">numerology</a></li>
-                  <li><a href="services.html">tarot cards</a></li>
-                  <li><a href="services.html">Birth journal</a></li>
-                </ul>
-              </div>
-            </div>
-          </div> */}
           <div className="col-lg-2 col-md-2 col-sm-6 col-12">
             <div className="widget text-widget">
               <h4 className="widget-title">quick links</h4>
               <div className="ast_sociallink">
                 <ul>
-                  <li><a href="about.html">about</a></li>
-                  <li><a href="blog.html">blog</a></li>
-                  <li><a href="team.html">Astrologers</a></li>
-                  <li><a href="privacy_policy.html">Privacy Policy</a></li>
-                  <li><a href="contact.html">contact</a></li>
+                  <li><a href="/about">about</a></li>
+                  <li><a href="/blog">blog</a></li>
+                  <li><a href="/privacy_policy">Privacy Policy</a></li>
+                  <li><a href="/contact">contact</a></li>
                 </ul>
               </div>
             </div>

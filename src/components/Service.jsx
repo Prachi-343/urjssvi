@@ -33,7 +33,7 @@ const Service = () => {
               <h4>Birth Journal</h4>
               <p>Discover the secrets of your life with a personalized birth journal based on your unique astrological chart.</p>
               <div className="clearfix"></div>
-              <Link to="/service_single" className="ast_btn">read more</Link>
+              <Link to="/appointment" className="ast_btn">read more</Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -42,7 +42,7 @@ const Service = () => {
               <h4>Vastu Shastra</h4>
               <p>Enhance harmony and prosperity in your life with expert Vastu Shastra guidance.</p>
               <div className="clearfix"></div>
-              <Link to="/service_single" className="ast_btn">read more</Link>
+              <Link to="/appointment" className="ast_btn">read more</Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -51,7 +51,7 @@ const Service = () => {
               <h4>Face Reading</h4>
               <p>Unveil hidden truths about your personality and destiny with expert face reading analysis.</p>
               <div className="clearfix"></div>
-              <Link to="/service_single" className="ast_btn">read more</Link>
+              <Link to="/appointment" className="ast_btn">read more</Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -60,7 +60,7 @@ const Service = () => {
               <h4>Lal Kitab</h4>
               <p>Unlock simple yet powerful remedies for a better life with Lal Kitab astrology.</p>
               <div className="clearfix"></div>
-              <Link to="/service_single" className="ast_btn">read more</Link>
+              <Link to="/appointment" className="ast_btn">read more</Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -69,7 +69,7 @@ const Service = () => {
               <h4>Gemstones</h4>
               <p>Harness the power of gemstones to attract positivity, success, and well-being in your life.</p>
               <div className="clearfix"></div>
-              <Link to="/service_single" className="ast_btn">read more</Link>
+              <Link to="/appointment" className="ast_btn">read more</Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -78,7 +78,7 @@ const Service = () => {
               <h4>kundli dosh</h4>
               <p>Identify and resolve Kundli Dosh with expert remedies for a harmonious and prosperous life.</p>
               <div className="clearfix"></div>
-              <Link to="/service_single" className="ast_btn">read more</Link>
+              <Link to="/appointment" className="ast_btn">read more</Link>
             </div>
           </div>
         </div>

@@ -8,6 +8,7 @@ import Blog from './pages/Blog.jsx';
 import Appointment from './pages/Appointment';
 import Shop from './pages/Shop';
 import Contact from './pages/Contact';
+import Auth from './pages/Auth.jsx';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/appointment" element={<Appointment />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Auth />} />
       </Routes>
     </Router>
   );

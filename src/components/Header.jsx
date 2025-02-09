@@ -33,8 +33,7 @@ const Header = () => {
               </div>
               <div className="ast_autho_wrapper">
                 <ul>
-                  <li><a className="popup-with-zoom-anim" href=""><FontAwesomeIcon icon={faSignIn} style={iconStyles} /> Log In</a></li>
-                  <li><a className="popup-with-zoom-anim" href=""><FontAwesomeIcon icon={faUserPlus} style={iconStyles} /> Sign Up</a></li>
+                  <li><a className="popup-with-zoom-anim" href="/login"><FontAwesomeIcon icon={faSignIn} style={iconStyles} /> Log In</a></li>
                   <li className="ast_cart">
                     <a href="#"><FontAwesomeIcon icon={faShoppingCart} style={iconStyles} /></a>
                   </li>
