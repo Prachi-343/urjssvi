@@ -31,16 +31,16 @@ const TimerSection = () => {
               <div className="ast_counter">
                 <span><img src={timer1} alt="timer" /></span>
                 <h2 className="timer">
-                  <CountUp start={0} end={200} duration={5} />
+                  <CountUp start={0} end={2000} duration={7} />
                 </h2>
-                <h4>Offices Worldwide</h4>
+                <h4>Happy Clients</h4>
               </div>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-6 col-12">
               <div className="ast_counter">
                 <span><img src={timer2} alt="timer" /></span>
                 <h2 className="timer">
-                  <CountUp start={0} end={800} duration={5} />
+                  <CountUp start={0} end={10} duration={3} />
                 </h2>
                 <h4>skilled Astrologers</h4>
               </div>

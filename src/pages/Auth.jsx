@@ -22,8 +22,8 @@ const Auth = () => {
 
   return (
     <div>
-      <Header />
-      {/* <Bread /> */}
+      {/* <Header />
+      <Bread /> */}
       <Login 
         email={email}
         setEmail={setEmail}
