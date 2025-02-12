@@ -207,6 +207,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin: 40px auto;
 	position: relative;
 	text-align:right;
+	margin-top: 100px; /* Add margin-top to create space */
 }
 #login-dialog h1{
     float: left;
@@ -234,6 +235,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin: 40px auto;
 	position: relative;
 	text-align:right;
+	margin-top: 100px; /* Add margin-top to create space */
 }
 #signup-dialog h1{
     float: left;
@@ -1223,7 +1225,7 @@ input:focus, textarea:focus, select:focus, button:focus {
   
   .Ap-link:hover {
     color: blue; 
-    text-decoration: 
+    text-decoration: none;
 }
   
 

@@ -9,6 +9,7 @@ import Appointment from './pages/Appointment';
 import Shop from './pages/Shop';
 import Contact from './pages/Contact';
 import Auth from './pages/Auth.jsx';
+import Product from './pages/Product.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Auth />} />
+        <Route path="/product/:id" element={<Product />} />
       </Routes>
     </Router>
   );

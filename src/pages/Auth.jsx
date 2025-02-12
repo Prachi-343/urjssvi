@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../firebase.js';
+import { auth } from '../firebase';
 import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 import Bread from '../components/Breadcrumb.jsx';
@@ -15,7 +15,6 @@ const Auth = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      // Redirect to the desired page after successful login
     } catch (error) {
       setError(error.message);
     }
@@ -24,7 +23,7 @@ const Auth = () => {
   return (
     <div>
       <Header />
-      <Bread />
+      {/* <Bread /> */}
       <Login 
         email={email}
         setEmail={setEmail}
