@@ -502,13 +502,13 @@ input:focus, textarea:focus, select:focus, button:focus {
     position: relative;
 	background-color:#111111;
 	z-index:1;
-    background-image: url(../assets/images/imgs/main-bannar.png);
+    background-image: url(../assets/images/imgs/main-bannar.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .ast_slider_wrapper.style_2{
-	background-image: url(../assets/images/imgs/main-bannar.png);
+	background-image: url(../assets/images/imgs/main-bannar.jpg);
 }
 .ast_slider_wrapper .ast_img_overlay {
     z-index: -1;
@@ -2208,7 +2208,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	background-size: cover;
 	color:#ffffff;
 	padding:200px 0px 100px 0px;
-	background-image: url(../assets/images/imgs/main-bannar.png);
+	background-image: url(../assets/images/imgs/main-bannar.jpg);
     background-position: center center;
 	background-repeat: no-repeat;
 	text-align:center;

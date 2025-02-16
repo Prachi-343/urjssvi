@@ -32,12 +32,12 @@ const Header = () => {
                 </ul>
               </div>
               <div className="ast_autho_wrapper">
-                <ul>
+                {/* <ul>
                   <li><a className="popup-with-zoom-anim" href="/login"><FontAwesomeIcon icon={faSignIn} style={iconStyles} /> Log In</a></li>
                   <li className="ast_cart">
                     <a href="#"><FontAwesomeIcon icon={faShoppingCart} style={iconStyles} /></a>
                   </li>
-                </ul>           
+                </ul>            */}
               </div>
             </div>
           </div>
