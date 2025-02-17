@@ -9,7 +9,7 @@ import '../css/owl.theme.default.css';
 import '../css/magnific-popup.css';
 import '../css/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope, faSignIn, faUserPlus, faSearch, faShoppingCart, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/images/imgs/header-logo.png';
 
@@ -22,28 +22,6 @@ const Header = () => {
   return (
     <>
       <div className="ast_top_header">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-              <div className="ast_contact_details">
-                <ul>
-                  <li><a href="tel:+918181814269"><FontAwesomeIcon icon={faPhone} style={iconStyles} /> +91 8181814269</a></li>
-                  <li><a href="mailto:mayureshdixit18@gmail.com"><FontAwesomeIcon icon={faEnvelope} style={iconStyles} /> mayureshdixit18@gmail.com</a></li>
-                </ul>
-              </div>
-              <div className="ast_autho_wrapper">
-                {/* <ul>
-                  <li><a className="popup-with-zoom-anim" href="/login"><FontAwesomeIcon icon={faSignIn} style={iconStyles} /> Log In</a></li>
-                  <li className="ast_cart">
-                    <a href="#"><FontAwesomeIcon icon={faShoppingCart} style={iconStyles} /></a>
-                  </li>
-                </ul>            */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="ast_header_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-3 col-sm-3 col-10">

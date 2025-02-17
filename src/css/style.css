@@ -154,10 +154,10 @@ input:focus, textarea:focus, select:focus, button:focus {
 /*---------- Normal css End -------*/
 /*---------- Header Start -------*/
 .ast_top_header {
-	float: left;
-	width: 100%;
-    background-color: #ffffff;
+    float: left;
+    width: 100%;
     padding: 15px 0px;
+    background-image: url(../assets/images/imgs/main-bannar.jpg);
 }
 .ast_autho_wrapper {
 	float: right;
@@ -349,35 +349,36 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_menu {
     float: left;
     width: 100%;
-	position: relative;
+    position: relative;
 }
 .ast_menu ul {
     float: right;
     width: auto;
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
 }
 .ast_menu ul li {
-	list-style:none;
-	float:left;
-	margin-right:0px;
-	position:relative;
-	/*-webkit-transition: all 0.5s;*/
- /*   -moz-transition: all 0.5s;*/
- /*   -ms-transition: all 0.5s;*/
- /*   -o-transition: all 0.5s;*/
- /*   transition: all 0.5s;*/
+    list-style:none;
+    float:left;
+    margin-right:0px;
+    position:relative;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .ast_menu ul li:last-child{
-	margin-right:0px;
+    margin-right:0px;
 }
 .ast_menu ul li a {
     display: block;
     text-transform: capitalize;
+    font-size: 1.1rem;  
     color: #ffffff;
     padding: 38px 15px 38px 15px;
-	position:relative;
-	z-index:1;
+    position:relative;
+    z-index:1;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -386,35 +387,35 @@ input:focus, textarea:focus, select:focus, button:focus {
     transform-origin: top;
 }
 .ast_menu ul li a:after{
-	content:"";
-	position:absolute;
-	opacity:0;
-	visibility:hidden;
-	top:0;
-	left:0;
-	bottom:0;
-	right:0;
-	z-index:-1;
-	-webkit-transition: all 0.5s;
+    content:"";
+    position:absolute;
+    opacity:0;
+    visibility:hidden;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:-1;
+    -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 .ast_menu ul li a:hover:after{
-	opacity:1;
-	visibility:visible;
-	/* background-color: #ff6f00; */
+    opacity:1;
+    visibility:visible;
+    /* background-color: #ff6f00; */
     color: #ff6f00;
-	-webkit-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 .ast_menu ul li a.active {
-	background-color: #ff6f00;
-	-webkit-transition: all 0.5s;
+    background-color: #ff6f00;
+    -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -425,8 +426,8 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 .ast_menu ul li ul.submenu li{
-	float:left;
-	width:100%;
+    float:left;
+    width:100%;
 }
 .ast_menu ul li ul.submenu li a{
     padding: 10px 10px;
@@ -434,17 +435,17 @@ input:focus, textarea:focus, select:focus, button:focus {
     border-top: 0px;
     border-bottom: 1px solid #555555;
     color: #ffffff;
-	-webkit-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 .ast_menu ul li ul.submenu li a:hover{
-	border-top:0px;
-	background-color: #ff6f00;
-	color: #ffffff;
-	-webkit-transition: all 0.5s;
+    border-top:0px;
+    background-color: #ff6f00;
+    color: #ffffff;
+    -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -458,7 +459,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 
 .ast_menu_btn{
-	display:none;
+    display:none;
 }
 .menu_fixed {
     position: fixed;
@@ -469,12 +470,12 @@ input:focus, textarea:focus, select:focus, button:focus {
     box-shadow: 0px -5px 20px;
 }
 .menu_fixed.ast_header_bottom {
-	margin-top:0px;
+    margin-top:0px;
     background-color:rgba(0, 0, 0, 0.7);
 }
 .ast_slider{
-	float:left;
-	width:100%;
+    float:left;
+    width:100%;
 }
 .menu_fixed .ast_menu ul li ul.submenu {
     background-color:#333333;
@@ -494,6 +495,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     -ms-box-shadow: 0px 4px 22px -7px #000000;
     box-shadow: 0px 4px 22px -7px #000000;
 }
+
 /*---------- Menu css end -------*/
 /*---------- Slider Css Start -------*/
 .ast_slider_wrapper{
@@ -516,8 +518,9 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_banner_text{
 	float:left;
 	width:100%;
+    /* font-size: 2rem; */
 	text-align:center;
-	color:#fff;
+	color:#ffffff;
 	position:relative;
     overflow: hidden;
 	padding:250px 0px;
@@ -3799,7 +3802,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .ast_logo {
     padding: 10px 0px;
 }
-/* .ast_menu_btn{
+ .ast_menu_btn{
     display: block;
     float: none;
     position: absolute;
@@ -3910,7 +3913,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_menu ul li ul.submenu li ul.submenu li a{
 	padding-left:40px;
-} */
+} 
 .ast_footer_wrapper {
     position: initial;
 }
