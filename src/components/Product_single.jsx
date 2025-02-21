@@ -67,18 +67,15 @@ const ProductSingle = () => {
                   <Col lg={4} md={4} sm={12} xs={12}>
                     <div className="product_slider">
                       {/* Slides */}
-                      
-                        <div className="slick_item">
-                          <img src={product.photoURL} className="img-responsive" alt="Product" />
-                        </div>
-
+                      <div className="slick_item">
+                        <img src={product.photoURL} className="img-responsive" alt="Product" />
+                      </div>
                       {/* Slides */}
                     </div>
                   </Col>
                   <Col lg={8} md={8} sm={12} xs={12}>
                     <div className="product_description">
                       <h3>{product.name}</h3>
-                      
                       <p>{product.description}</p>
                       <div className="stock_details">{product.stock} In Stock</div>
                       <div className="prod_quantity">
@@ -94,7 +91,7 @@ const ProductSingle = () => {
                       </div>
                       <div className="product_buy">
                         <a href="/contact" className="buy_btn ast_btn">
-                          Buy Now
+                          <i className="fa fa-shopping-cart"></i> Buy Now
                         </a>
                       </div>
                     </div>
